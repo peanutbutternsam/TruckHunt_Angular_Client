@@ -1,0 +1,24 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node client.js"
+  },
+  "dependencies": {
+    "express": "4.x",
+    "body-parser": "~1.0.0",
+    "morgan": "latest",
+    "mongoose": "3.8.8",
+    "express-jwt": "0.2.1",
+    "jsonwebtoken": "0.4.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.1",
+    "should": "~1.2.2",
+    "supertest": "~0.7.1"
+  }
+}
