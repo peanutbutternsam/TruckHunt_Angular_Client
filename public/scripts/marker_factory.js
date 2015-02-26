@@ -40,7 +40,6 @@ app.factory('MarkerFactory', function () {
                 var marker = create(latitude, longitude);
                 invokeSuccessCallback(successCallback, marker);
             } else {
-                // alert("Unknown address: " + address);
             }
         });
     }

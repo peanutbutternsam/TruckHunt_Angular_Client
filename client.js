@@ -3,7 +3,6 @@
   var morgan = require("morgan");
   var app = express();
 
-
   // all environments
   app.set('port', process.env.PORT || 9393);
 
@@ -21,10 +20,5 @@
   app.get("/", function(req, res) {
     res.render("index.html");
   });
-
-  // development only
-  if ('development' == app.get('env')) {
-    // app.use(express.errorHandler());
-  }
 
   app.listen(app.get('port'));
